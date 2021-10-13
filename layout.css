@@ -1,6 +1,9 @@
 body{
   background-color: #2C514C;
-
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -13,16 +16,19 @@ body{
 }
   #nav{
     background-color: #95818D;
-    color: white;
   }
 
   #section{
     background-color: #576066;
     color: white;
-
+    float: left;
+    width: 80%;
   }
 
   #aside{
     background-color: #122932;
     color: white;
+    float: right;
+    width: 20%;
+    text-align: left;
   }
