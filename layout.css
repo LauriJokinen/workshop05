@@ -20,6 +20,15 @@ body{
     background-color: #95818D
 
   }
+  a:link {
+    color: blue;
+  }
+  a:visited {
+    color: black;
+  }
+  a:hover {
+    color: white;
+  }
 
   #section{
     background-color: #576066;
@@ -34,5 +43,9 @@ body{
     float: right;
     width: 20%;
     text-align: left;
+
+  }
+  h2{
+    padding-left: 10px;
 
   }
