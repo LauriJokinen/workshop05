@@ -12,6 +12,17 @@ body{
     padding-left: 10px;
 }
   #nav{
-    background-color: #576066;
+    background-color: #95818D;
+    color: white;
+  }
 
+  #section{
+    background-color: #576066;
+    color: white;
+
+  }
+
+  #aside{
+    background-color: #122932;
+    color: white;
   }
