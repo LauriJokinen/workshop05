@@ -41,6 +41,7 @@
     color: white;
     float: left;
     width: 80%;
+
   }
 
   #aside{
@@ -49,8 +50,8 @@
     float: right;
     width: 20%;
     text-align: left;
-
   }
+
   h2{
     padding-left: 10px;
 

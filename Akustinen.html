@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <title>Skebat - Akustinen</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="yleinen.css">
+    <link rel="stylesheet" href="akustinen.css">
+
+    <script type="text/javascript">
+
+      var i = 0;
+      var images = [];
+      var time = 5000
+
+      //images list
+      images[0] = "AkustinenKuva1.jpg";
+      images[1] = "AkustinenKuva2.jpg";
+      images[2] = "AkustinenKuva3.jpg";
+
+      //change time
+      function changeImg(){
+        document.slide.src = images[i];
+
+        if (i < images.length - 1) {
+          i++;
+        } else {
+          i = 0;
+        }
+        setTimeout ("changeImg()", time);
+      }
+
+      window.onload = changeImg
+    </script>
+
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-sm-12 px-0">
+          <h1> Laurin Skebat </h1>
+        </div>
+
+        <div class="col-sm-12 px-0">
+          <nav class="navbar navbar-expand-sm navbar-light" >
+              <a href="file:///C:/Users/aappb/github/omasivu/Index.html" class="navbar-brand"> Etusivu </a>
+
+
+              <div class="navbar-collapse collapse">
+
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="file:///C:/Users/aappb/github/omasivu/S%C3%A4hk%C3%B6.html" class="nav-link"> Sähkö </a></li>
+
+                   <li class="nav-item">
+                     <a href="file:///C:/Users/aappb/github/omasivu/Klassinen.html" class="nav-link"> Klassinen</a></li>
+
+                    <li class="nav-item">
+                       <a href="file:///C:/Users/aappb/github/omasivu/Akustinen.html" class="nav-link active"> Akustinen</a></li>
+
+                     <li class="nav-item">
+                          <a href="file:///C:/Users/aappb/github/omasivu/Suositukset.html" class="nav-link"> Suosiukset</a></li>
+                </ul>
+              </div>
+              </div>
+
+                <img name="slide" width="400" height="200"  >
+
+                <div class="sm-col-12">
+                  <div class="teksti">
+
+                  <p class="leipä">  <h2>Eco Akustinen</h2> Kyseinen kitara on teräskielinen akustinen soitin.
+                  Mallista en ole varma, koska olen perinyt kitaran isoisältäni. Sen verran osaan sanoa, että eco on italialainen
+                valmistaja, jonka soittimet on valmistettu Italiassa käsin. Tämän soittimen runko on suuri ja muotoilu
+              dreadnaught -tyyilistä ja rungon suojus on muotoiltu ikään kuin muistuttamaan lepakon siipeä ja on näyttävämpi mitä nykyisin yleensä tehdään. Ikävä kyllä soittimen ikä näkyy ja kuuluu soitettaessa. Perushuolto on kitaralle tehty, mutta 15 vuotta takan reunuksella
+            on jättänyt jälkensä pysyvästi.
+            <br>
+            <br>
+            Annan kuitenkin soittimelle arvosanaksi 4/5, koska se sattui oikeaan paikkaan oikeaan aikaan, ja se oli pitkään soitetuin kitarani.
+           </p>
+                </div>
+                </div>
+
+              <div class=" col-sm-12">
+                <hr>
+                <ul class="footer " >
+                  <p>Kysymyksiä voi esittää joko puhelimella tai sähköpostitse oheisiin yhteystietoihin</p>
+                  <p> omia suosituksia voit lähettää lomakkeella <a href="#" class="linkki"> suositukset </a> sivulta</p>
+                  <li> lauri.jokinen@student.laurea.fi </li>
+                  <li> puh. 044 123 1234 12</li>
+                </ul>
+              </div>
+
+        </div>
+      </div>
+ </div>
+        <script type="text/javascript" scr="bootstrap.js"></script>
+  </body>
+</html>

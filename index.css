@@ -1,0 +1,66 @@
+body {
+  background-color: #987456;
+}
+.container {
+  background-color: #DFCAA0;
+
+}
+.navbar{
+  margin-top: ;
+
+}
+#omakuva {
+  width: 300px;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  background-image: url(kitaratausta.jpg);
+  background-size: auto;
+  margin-bottom: 0px;
+}
+h2 {
+  font-size: 60px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+h3 {
+  font-size: 60px;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.leipä {
+  font-size: 20px;
+  text-align: justify;
+  background: rgba(255, 255, 255, 0.5);
+  padding-right: 10px;
+  margin-left: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+.footer {
+  background-color: ;
+  text-align: center;
+  margin-top: 50px;
+}
+.linkki{
+  color: brown;
+
+}
+.active{
+  background-color: #c8a480 ;
+  border-radius: 5px;
+}
+hr {
+  margin-top: 60px;
+
+}
